@@ -45,6 +45,7 @@
         twttr.widgets.load();
     };
 
+    
     userNameInput.onkeydown = (event) => {
         if (event.keyCode === 13) {
             assessmentButton.onclick();
